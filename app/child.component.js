@@ -20,7 +20,7 @@ var ChildComponent = (function () {
         //Import decorator dependencies
         core_1.Component({
             selector: 'child',
-            template: "<h3> {{child_content}} </h3>",
+            template: "<p><b>{{child_content}} </b></p>",
         }), 
         __metadata('design:paramtypes', [])
     ], ChildComponent);

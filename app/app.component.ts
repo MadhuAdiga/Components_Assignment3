@@ -2,7 +2,9 @@ import { Component } from '@angular/core';//Import decorator dependencies
 
 @Component({
   selector: 'my-app',//selector
-  template: ` <h3> This is the parent Component</h3>
+  template: ` <h2>Component: Assignment 3</h2>
+  
+              <p><b> This is the parent Component</b></p>
               
               <child [child_content]="content"></child>`, //use child selector and pass content through a variable 'content'
               

@@ -17,7 +17,7 @@ var AppComponent = (function () {
         //Import decorator dependencies
         core_1.Component({
             selector: 'my-app',
-            template: " <h3> This is the parent Component</h3>\n              \n              <child [child_content]=\"content\"></child>",
+            template: " <h2>Component: Assignment 3</h2>\n  \n              <p><b> This is the parent Component</b></p>\n              \n              <child [child_content]=\"content\"></child>",
         }), 
         __metadata('design:paramtypes', [])
     ], AppComponent);

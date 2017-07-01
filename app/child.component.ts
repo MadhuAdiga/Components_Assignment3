@@ -2,7 +2,7 @@ import { Component, Input } from '@angular/core';//Import decorator dependencies
 
 @Component({
   selector: 'child',//selector
-  template: `<h3> {{child_content}} </h3>`,//interpolate the child_content variable
+  template: `<p><b>{{child_content}} </b></p>`,//interpolate the child_content variable
               
 })
 
